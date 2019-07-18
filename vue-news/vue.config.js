@@ -1,11 +1,16 @@
 /* cli.vuejs.org */
 module.exports = {
   /* eslint */
-  lintOnSave: true,
+  lintOnSave: false,
   devServer: {
     overlay: {
       warnings: true,
       errors: true
+    }
+  },
+  resolve: {
+    alias: {
+      "@": require("path").resolve(__dirname, "src")
     }
   }
 }
