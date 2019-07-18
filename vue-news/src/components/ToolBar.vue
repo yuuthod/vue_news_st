@@ -14,12 +14,15 @@ export default {
 <style scoped>
   .header {
     color: #fff;
-    background-color: #202020;
+    background-color: #1b1d1c;
     display: flex;
-    padding: 8px;
+    padding: 15px 20px;
   }
   .header a {
     color: #fff;
-    padding: 5px;
+    padding-right: 20px;
+  }
+  .header .router-link-exact-active {
+    color: #ff0000;
   }
 </style>

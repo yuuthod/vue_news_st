@@ -17,3 +17,7 @@
   - 2.x : 필요 X
   - 3.x : 필요 O
 
+
+
+## mode: history
+url 에서 # 빼줌

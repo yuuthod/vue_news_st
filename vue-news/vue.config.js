@@ -8,9 +8,11 @@ module.exports = {
       errors: true
     }
   },
-  resolve: {
-    alias: {
-      "@": require("path").resolve(__dirname, "src")
+  configureWebpack: {
+    resolve: {
+      alias: {
+        "@": require("path").resolve(__dirname, "src")
+      }
     }
   }
 }
